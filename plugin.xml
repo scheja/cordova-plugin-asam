@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-asam" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>ASAM</name>
+  <js-module name="ASAM" src="www/ASAM.js">
+    <clobbers target="plugin.asam"/>
+    <clobbers target="cordova.plugins.asam"/>
+  </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="ASAM">
+        <param name="ios-package" value="ASAM" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/ASAM.swift" />
+  </platform>
+</plugin>

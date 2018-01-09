@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-asam",
+  "version": "1.0.0",
+  "description": "Cordova Autonomous Single App Mode Plugin",
+  "cordova": {
+    "id": "cordova-plugin-asam",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mankido/cordova-plugin-asam.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova:plugin"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugin",
+      "version": ">=4.2.0"
+    }
+  ],
+  "author": "Jan Scheurenbrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/mankido/cordova-plugin-asam/issues"
+  },
+  "homepage": "https://gitlab.com/mankido/cordova-plugin-asam"
+}
